@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* smartfon  */
+@media (min-width: 320px) and (max-width: 991px) {
+  body {
+    width: 375px;
+    margin: 0 auto;
+  }
+.header{
+  width: 100%;
+}
+
+.logo img {
+  margin-top: 36px;
+  width: 52.19px;
+  height: 30.75px;
+  margin-bottom: 44px;
+}
+
+.li_img {
+  width: 12.74px;
+  height: 12.74px;
+  margin-right: 5.8px;
+}
+
+.razdel {
+  margin-bottom: 8px;
+  list-style: none;
+  text-decoration: none;
+}
+.razdel ul li {
+  display: inline-block;
+  margin-right: 14.5px;
+  font-size: 12px;
+}
+
+
+
+.film h1 {
+width: 292px;
+height: 88.53px;
+font-size: 37px;
+line-height: 101.38%;
+margin-top: 21px;
+}
+
+.film p {
+  width: 212.4px;
+  font-size: 10px;
+  line-height: 150%;
+}
+
+.noroot {
+  width: 141.66px;
+  height: 165.89px;
+  margin-left: 201px;
+  margin-top: 20px;
+}
+
+
+.proverb {
+  background-color: #1E4681;
+  margin-bottom: 75.06px;
+  border-radius: 2px;
+  width: 225px;
+  height: 93px;
+  margin-left: 37px;
+  margin-top: 67px; 
+}
+
+.proverb .content {
+  width: 200px;
+  height: 52px;
+  font-size: 11px;
+  font-weight: 400;
+  padding: 8px 12px 31px 12px;
+  color: #FFFFFF;
+}
+
+.proverb .span {
+  font-size: 10px;
+    text-align: right;
+    margin-right: 18.5px;
+    padding-bottom: 1em;
+} 
+
+
+/* Burdan sonra yarimciq qalib */
+
+.main{
+  width: 100%;
+}
+
+
+.section1_head {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h2 {
+  font-size: 26px;
+  height: 43px;
+}
+
+
+.section1 h2 {
+  margin-bottom: 10.42px;
+}
+
+.section1 p {
+  font-size: 12px;
+}
+
+.section1_image {
+  width: 31%;
+}
+
+.section1_image img {
+  width: 100%;
+  
+}
+
+.section1_alt {
+    margin-top: 100px;
+    margin-bottom: 162px;
+    display: none;
+}
+
+.section1_alt img {
+    width: 19.5%;
+    margin-right: 132px;
+}
+
+
+
+.section1_date {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.date_item {
+    display: block;
+    width: 150px;
+}
+
+h4 {
+    margin-bottom: 1px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+}
+/* tablet */
+@media (min-width: 992px) and (max-width: 1279px) {
+  body {
+    width: 834px;
+    margin: 0 auto;
+  }
+}
+
+/* desktop */
+@media (min-width: 1280px) {
+  body {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
